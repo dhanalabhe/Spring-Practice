@@ -1,0 +1,81 @@
+/* =====================
+   GLOBAL
+===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #0f172a; /* slate-900 */
+    color: #e5e7eb;
+    padding: 40px;
+}
+
+/* =====================
+   PAGE TITLE
+===================== */
+h2 {
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #f8fafc;
+}
+
+/* =====================
+   TABLE CONTAINER
+===================== */
+.table-container {
+    background: #020617;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    overflow-x: auto;
+}
+
+/* =====================
+   TABLE
+===================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #020617;
+}
+
+thead th {
+    text-align: left;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #94a3b8;
+    border-bottom: 1px solid #1e293b;
+}
+
+tbody td {
+    padding: 14px;
+    font-size: 14px;
+    border-bottom: 1px solid #1e293b;
+    color: #e5e7eb;
+}
+
+/* =====================
+   ROW HOVER
+===================== */
+tbody tr:hover {
+    background: rgba(148, 163, 184, 0.08);
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+}
