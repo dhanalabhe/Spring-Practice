@@ -29,8 +29,9 @@ public class ContactController {
         return "Contact saved successfully!";
     }
     @GetMapping("/contacts")
-        public java.util.List<Contact> getAllContacts() {
+    public java.util.List<Contact> getAllContacts() {
         return contactRepository.findAll();
 }
-
 }
+
+

@@ -1,4 +1,4 @@
-fetch("http://localhost:8080/contacts")
+fetch("/contacts")
 .then(response => response.json())
 .then(data => {
     let rows = "";
